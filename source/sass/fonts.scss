@@ -1,0 +1,88 @@
+@font-face {
+  font-display: swap;
+  font-family: "Philosopher";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Philosopher Italic"),
+  local("Philosopher-Italic"),
+  url("/fonts/Philosopher-Italic.woff2") format("woff2"),
+  url("/fonts/Philosopher-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Philosopher Bold"),
+  local("Philosopher-Bold"),
+  url("/fonts/Philosopher-Bold.woff2") format("woff2"),
+  url("/fonts/Philosopher-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Geometria Regular"),
+  local("Geometria"),
+  local("Geometria-Regular"),
+  url("/fonts/Geometria.woff2") format("woff2"),
+  url("/fonts/Geometria.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Geometria Medium"),
+  local("Geometria-Medium"),
+  url("/fonts/Geometria-Medium.woff2") format("woff2"),
+  url("/fonts/Geometria-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Geometria Heavy"),
+  local("Geometria-Heavy"),
+  url("/fonts/Geometria-Heavy.woff2") format("woff2"),
+  url("/fonts/Geometria-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Geometria Heavy Italic"),
+  local("Geometria-HeavyItalic"),
+  url("/fonts/Geometria-HeavyItalic.woff2") format("woff2"),
+  url("/fonts/Geometria-HeavyItalic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Geometria Light"),
+  local("Geometria-Light"),
+  url("/fonts/Geometria-Light.woff2") format("woff2"),
+  url("/fonts/Geometria-Light.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Geometria Light Italic"),
+  local("Geometria-LightItalic"),
+  url("/fonts/Geometria-LightItalic.woff2") format("woff2"),
+  url("/fonts/Geometria-LightItalic.woff") format("woff");
+}

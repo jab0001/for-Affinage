@@ -1,0 +1,38 @@
+.footer {
+  height: 54px;
+  margin-top: -54px;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 500;
+
+  @media (min-width: $width-desktop) {
+    height: 122px;
+    margin-top: -80px;
+  }
+}
+
+.footer__logo {
+  display: block;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110px;
+
+  @media (min-width: $width-desktop) {
+    height: 160px;
+    position: relative;
+    width: 160px;
+
+    &::after {
+      background-color: $color-pseudo;
+      content: "";
+      display: block;
+      height: 10px;
+      left: calc(50% - 213px / 2);
+      position: absolute;
+      top: 112px;
+      width: 213px;
+    }
+  }
+}

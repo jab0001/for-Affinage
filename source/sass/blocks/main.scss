@@ -1,0 +1,255 @@
+.main {
+  position: relative;
+  z-index: 200;
+}
+
+.main__logo {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 494px);
+    position: absolute;
+    top: 253px;
+    z-index: 700;
+  }
+}
+
+.main__slogan {
+  display: block;
+  font-family: $font-stack-accent;
+  font-size: 9px;
+  left: -20px;
+  line-height: normal;
+  margin: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 158px;
+  transform: rotate(-90deg);
+  z-index: 700;
+
+  @media (min-width: $width-desktop) {
+    left: calc(50% - 438px);
+    top: 385px;
+  }
+}
+
+.main__test-text {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    font-family: $font-stack-decor;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    left: -28px;
+    letter-spacing: 0.444px;
+    margin: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 292px;
+    transform: rotate(-90deg);
+    z-index: 700;
+  }
+}
+
+.main__decor-51 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 159px);
+    top: 0;
+    transform: rotate(-90deg);
+    z-index: 700;
+  }
+}
+
+.main__decor-1 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 495px);
+    top: 83px;
+    z-index: 700;
+  }
+}
+
+.main__decor-3 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 495px);
+    top: 165px;
+    z-index: 700;
+  }
+}
+
+.main__decor-ural {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: flex;
+    left: calc(50% - 133px);
+    top: 119px;
+    z-index: 700;
+  }
+}
+
+.main__decor-shape {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 371px);
+    top: 169px;
+    z-index: 600;
+  }
+}
+
+.main__decor-black-alfa-1 {
+  right: 27px;
+  top: 144px;
+  z-index: 400;
+
+  @media (min-width: $width-desktop) {
+    bottom: -85px;
+    right: calc(50% - 504px);
+    top: unset;
+  }
+}
+
+.main__decor-black-alfa-2 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -134px;
+    display: block;
+    right: calc(50% + 244px);
+    z-index: 600;
+  }
+}
+
+.main__decor-transparent-alfa-1 {
+  bottom: 27px;
+  left: 44px;
+  z-index: 600;
+
+  @media (min-width: $width-desktop) {
+    bottom: -105px;
+    left: calc(50% + 244px);
+  }
+}
+
+.main__decor-transparent-alfa-2 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -43px;
+    display: block;
+    right: calc(50% + 504px);
+    z-index: 600;
+  }
+}
+
+.main__decor-black-g {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -79px;
+    display: block;
+    right: calc(50% - 328px);
+    z-index: 400;
+  }
+}
+
+.main__decor-a1 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -96px;
+    display: block;
+    right: calc(50% + 435px);
+    z-index: 600;
+  }
+}
+
+.main__decor-f1 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -63px;
+    display: block;
+    right: calc(50% + 373px);
+    z-index: 600;
+  }
+}
+
+.main__decor-f2 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -105px;
+    display: block;
+    right: calc(50% + 309px);
+    z-index: 600;
+  }
+}
+
+.main__decor-i {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -78px;
+    display: block;
+    right: calc(50% + 256px);
+    z-index: 600;
+  }
+}
+
+.main__decor-n {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -118px;
+    display: block;
+    right: calc(50% + 181px);
+    z-index: 600;
+  }
+}
+
+.main__decor-a2 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -76px;
+    display: block;
+    right: calc(50% - 228px);
+    z-index: 600;
+  }
+}
+
+.main__decor-g {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -83px;
+    display: block;
+    right: calc(50% - 330px);
+    z-index: 600;
+  }
+}
+
+.main__decor-e {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: -110px;
+    display: block;
+    right: calc(50% - 440px);
+    z-index: 600;
+  }
+}

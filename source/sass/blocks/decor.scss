@@ -1,0 +1,68 @@
+.decor {
+  position: absolute;
+}
+
+.decor--text {
+  font-family: $font-stack-decor;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+
+  @media (min-width: $width-desktop) {
+    font-size: 80px;
+  }
+}
+
+.decor--text-accent {
+  @media (min-width: $width-desktop) {
+    font-family: $font-stack-accent;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+.decor--ural {
+  @media (min-width: $width-desktop) {
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 101.5 101.5' width='101.5' height='101.5'%3E%3Cpath stroke='%23000' fill='none' d='M50.5 100.5c-27.65 0-50-22.35-50-50s22.35-50 50-50 50 22.35 50 50-22.35 50-50 50z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    box-sizing: border-box;
+    color: $color-text-contrast;
+    display: flex;
+    font-family: $font-stack-decor;
+    font-size: 17px;
+    font-weight: 400;
+    height: 100px;
+    justify-content: center;
+    letter-spacing: 2.016px;
+    margin: 0;
+    padding: 0 22px;
+    width: 100px;
+  }
+}
+
+.decor--51 {
+  @media (min-width: $width-desktop) {
+    font-family: $font-stack-decor;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    line-height: normal;
+    opacity: 0.2;
+  }
+}
+
+.decor--parentheses {
+  @media (min-width: $width-desktop) {
+    font-family: $font-stack-decor;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+  }
+}

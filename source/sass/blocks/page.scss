@@ -1,0 +1,16 @@
+.page {
+  background-color: $color-primary;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='284.5' height='179.5'%3E%3Cpath stroke='%23000' fill='none' d='M283 1v177L1 140V1h282z'/%3E%3C/svg%3E");
+  background-position: top -44px right -131px;
+  background-repeat: no-repeat;
+  color: $color-text-main;
+  position: relative;
+
+  @media (min-width: $width-desktop) {
+    background-color: $color-bg-desktop;
+    background-image: url("../img/bg-desktop@1x.jpg");
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 84px;
+  }
+}
